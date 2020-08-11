@@ -81,6 +81,7 @@ Options:
   -V, --version      output the version number
   -f, --file <file>  HTML file path or an url adress (default: )
   -c, --clipboard    read HTML from clipboard
+  -m, --mode <mode>  specify converter mode: common/extra (default: "common")
   -h, --help         output usage information
 ```
 
@@ -106,6 +107,12 @@ Convert from clipboard:
 
 ```bash
 $ h2m -c
+```
+
+Convert use MarkdownExtra
+
+```bash
+$ h2m -f https://baidu.com -m extra
 ```
 
 Save result:
